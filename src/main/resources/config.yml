@@ -1,0 +1,22 @@
+## SkillItem made by coco0325
+
+settings:
+  # 設定插件所使用的物品欄 (1~9)
+  slots:
+    - 1
+    - 2
+    - 3
+  # 空白設定物品
+  default_item:
+    name: "&6空白物品"
+    ID: "PAPER"
+    lore:
+      - "&a使用/skillitem get ID"
+      - "&a獲取物品"
+messages:
+  plugin_prefix: "&6[&bSkillitem&6] "
+  item_does_not_exist: "&6此ID的物品不存在!"
+  item_exists: "&6此ID的物品已存在!"
+  help: "&6指令用法 &b/skillitem get ID 熱鍵(1~9) &f|&b save ID &f|&b delete ID &f|&b reload"
+  wrong_slot: "&6請輸入正確的物品欄"
+  save_success: "&6物品保存成功!"

@@ -1,0 +1,25 @@
+name: SkillItem
+version: ${project.version}
+main: me.coco0325.Skillitem
+api-version: 1.13
+authors: [coco0325]
+
+commands:
+  skillitem:
+    description: Main command.
+permissions:
+  skillitem.save:
+    description: Save Skillitems.
+    default: op
+  skillitem.delete:
+    description: Delete Skillitems.
+    default: op
+  skillitem.get.*:
+    description: Get Skillitems.
+    default: op
+  skillitem.ignore:
+    description: Avoid plugin affect.
+    default: op
+  skillitem.reload:
+    description: Reload plugin.
+    default: op
